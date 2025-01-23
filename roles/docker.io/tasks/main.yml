@@ -1,0 +1,12 @@
+---
+# tasks/main.yml for Docker role
+- name: Install Docker on Amazon Linux
+  yum:
+    name: docker
+    state: present
+
+- name: Start Docker service
+  service:
+    name: docker
+    state: started
+    enabled: yes
