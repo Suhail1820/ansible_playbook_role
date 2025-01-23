@@ -1,0 +1,8 @@
+
+# tests/test.yml
+- name: Test Docker Installation on Amazon Linux
+  hosts: all
+  become: yes
+  roles:
+    - docker.io
+
