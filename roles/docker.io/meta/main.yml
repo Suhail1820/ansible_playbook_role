@@ -1,0 +1,12 @@
+# meta/main.yml
+galaxy_info:
+  author: Suhail
+  description: Ansible role for installing and configuring Docker on Amazon Linux
+  company: Kairos
+  license: MIT
+  min_ansible_version: 2.9
+  platforms:
+    - name: Amazon Linux
+      versions:
+        - "2"
+  dependencies: []
